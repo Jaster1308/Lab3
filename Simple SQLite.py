@@ -37,10 +37,11 @@ def add_player():
 
 def search_player():
     with sqlite3.connect(db_name) as db:
-        name = input('What name? ')
+        new_data = input('What name? ')
         cur = db.cursor()
-        for row in cur.execute('select * from records, WHERE symbol=?', name):
-            print(cur.fetchall(row))
+        result = cur.execute('select * from records WHERE name=?', (new_data,))
+        for row in result:
+            print(row)
 
 
 def add_to_db(name, country, catches):
