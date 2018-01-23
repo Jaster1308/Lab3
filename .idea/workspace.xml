@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="662287e0-6e45-4af5-bb4e-3afaf0dab847" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Simple SQLite.py" afterPath="$PROJECT_DIR$/Simple SQLite.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Lab3$Simple_SQLite.coverage" NAME="Simple SQLite Coverage Results" MODIFIED="1516748334916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lab3$Simple_SQLite.coverage" NAME="Simple SQLite Coverage Results" MODIFIED="1516748946466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -23,17 +24,20 @@
       <file leaf-file-name="Simple SQLite.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Simple SQLite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="443">
+              <caret line="71" column="47" lean-forward="false" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1516748309870" expanded="true" signature="553:626" ph="create table... if" />
-                <marker date="1516748309870" expanded="true" signature="996:1017" ph="select ? fro... records" />
-                <marker date="1516748309870" expanded="true" signature="996:1030" ph="select * fro... records" />
-                <marker date="1516748309870" expanded="true" signature="1251:1283" ph="delete from " />
-                <marker date="1516748309870" expanded="true" signature="1257:1283" ph="select * fro... records" />
-                <marker date="1516748309870" expanded="true" signature="1531:1567" ph="insert into records... " />
-                <marker date="1516748309870" expanded="true" signature="1827:1848" ph="select * fro... records" />
+                <marker date="1516749795310" expanded="true" signature="553:626" ph="create table... if" />
+                <marker date="1516749795310" expanded="true" signature="996:1017" ph="select ? fro... records" />
+                <marker date="1516749795310" expanded="true" signature="996:1030" ph="select * fro... records" />
+                <marker date="1516749795310" expanded="true" signature="1252:1284" ph="delete from " />
+                <marker date="1516749795310" expanded="true" signature="1258:1284" ph="select * fro... records" />
+                <marker date="1516749795310" expanded="true" signature="1391:1412" ph="select * fro... records" />
+                <marker date="1516749795310" expanded="true" signature="1622:1658" ph="insert into records... " />
+                <marker date="1516749795310" expanded="true" signature="2000:2034" ph="Select ? fro... records" />
+                <marker date="1516749795310" expanded="true" signature="2080:2117" ph="update recor... " />
+                <marker date="1516749795310" expanded="true" signature="2218:2239" ph="select * fro... records" />
               </folding>
             </state>
           </provider>
@@ -359,8 +363,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="854" height="1017" extended-state="1" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11083123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -370,7 +374,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22058824" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -395,17 +399,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Simple SQLite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="443">
+          <caret line="71" column="47" lean-forward="false" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1516748309870" expanded="true" signature="553:626" ph="create table... if" />
-            <marker date="1516748309870" expanded="true" signature="996:1017" ph="select ? fro... records" />
-            <marker date="1516748309870" expanded="true" signature="996:1030" ph="select * fro... records" />
-            <marker date="1516748309870" expanded="true" signature="1251:1283" ph="delete from " />
-            <marker date="1516748309870" expanded="true" signature="1257:1283" ph="select * fro... records" />
-            <marker date="1516748309870" expanded="true" signature="1531:1567" ph="insert into records... " />
-            <marker date="1516748309870" expanded="true" signature="1827:1848" ph="select * fro... records" />
+            <marker date="1516749795310" expanded="true" signature="553:626" ph="create table... if" />
+            <marker date="1516749795310" expanded="true" signature="996:1017" ph="select ? fro... records" />
+            <marker date="1516749795310" expanded="true" signature="996:1030" ph="select * fro... records" />
+            <marker date="1516749795310" expanded="true" signature="1252:1284" ph="delete from " />
+            <marker date="1516749795310" expanded="true" signature="1258:1284" ph="select * fro... records" />
+            <marker date="1516749795310" expanded="true" signature="1391:1412" ph="select * fro... records" />
+            <marker date="1516749795310" expanded="true" signature="1622:1658" ph="insert into records... " />
+            <marker date="1516749795310" expanded="true" signature="2000:2034" ph="Select ? fro... records" />
+            <marker date="1516749795310" expanded="true" signature="2080:2117" ph="update recor... " />
+            <marker date="1516749795310" expanded="true" signature="2218:2239" ph="select * fro... records" />
           </folding>
         </state>
       </provider>

@@ -15,7 +15,7 @@ def main():
         elif choice == '2':
             search_player()
         elif choice == '3':
-            break
+            update_player()
         elif choice == '4':
             del_player()
         elif choice == '5':
@@ -42,6 +42,7 @@ def search_player():
         result = cur.execute('select * from records WHERE name=?', (new_data,))
         for row in result:
             print(row)
+
 def del_player():
     with sqlite3.connect(db_name) as db:
         deleting = input('What name? ')
@@ -62,6 +63,15 @@ def add_to_db(name, country, catches):
         print('rolling back to the last edit: ', e)
         traceback.print_exc()
         db.rollback()
+
+def update_player():
+    with sqlite3.connect(db_name) as db:
+        update = input('Who would you like the update? ')
+        new_catch = int(input('What new catches? '))
+        cur = db.cursor()
+        updating = cur.execute('update records set catches = ? where name=?', (new_catch, update))
+        for row in updating:
+            print(row)
 
 def show_all():
     with sqlite3.connect(db_name) as db:
