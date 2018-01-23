@@ -49,6 +49,8 @@ def del_player():
         result = cur.execute('delete from records where name=?', (deleting,))
         for row in result:
             print(row)
+        for list in db.cursor().execute('select * from records'):
+            print(list)
 
 def add_to_db(name, country, catches):
     # get data from add_player()
