@@ -17,7 +17,7 @@ def main():
         elif choice == '3':
             break
         elif choice == '4':
-            break
+            del_player()
         elif choice == '5':
             show_all()
         else:
@@ -42,7 +42,13 @@ def search_player():
         result = cur.execute('select * from records WHERE name=?', (new_data,))
         for row in result:
             print(row)
-
+def del_player():
+    with sqlite3.connect(db_name) as db:
+        deleting = input('What name? ')
+        cur = db.cursor()
+        result = cur.execute('delete from records where name=?', (deleting,))
+        for row in result:
+            print(row)
 
 def add_to_db(name, country, catches):
     # get data from add_player()
